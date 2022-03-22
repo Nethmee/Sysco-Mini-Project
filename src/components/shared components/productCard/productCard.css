@@ -1,0 +1,97 @@
+.card-container{
+
+    width:200px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+
+.card-heading {
+
+display: flex;
+flex-direction: row;
+flex:1;
+padding-bottom: 0;
+}
+
+.card-heading-title{
+    flex:2;
+   /*  background-color: aquamarine; */
+    
+    font-size: 1.20rem;
+    margin-bottom: 0.05em
+}
+.css-18k87ye-MuiTypography-root{
+
+    font-size: 1.20rem;
+    margin-bottom: 0.02em;
+    margin-top: 0.5em;
+    line-height: 1.4;
+}
+    
+.css-46bh2p-MuiCardContent-root {
+    padding: 11px;
+}
+.ratings{
+    flex:1;
+    display: flex;
+   
+  /*   background-color: teal; */
+
+
+}
+
+.card-bottom{
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+   
+}
+.price-placeholder{
+
+    display: flex;
+    flex: 3;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+   /*  background-color: blue;
+     */
+
+}
+.price-placeholder h3{
+
+    color:grey;
+    margin-block-start: 0.0em
+
+}
+.card-action-view{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+   /*  background-color: teal; */
+    justify-content: center;
+   
+}
+.card-action-cart{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+   /*  background-color: red; */
+    justify-content: center;
+    
+}
+.action-button{
+
+   height:60%;
+   width: 95%;
+   display: flex;
+   flex: 1;
+   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border:0;
+
+  margin:1px;
+}
