@@ -51,17 +51,17 @@ class productCard extends Component {
 
                     </div>
                     <Typography variant="caption" color="#8db600">
-                        Supplier name
+                    {this.props.supplier}
                     </Typography>
                     <Typography variant="body2" color="text.secondary" sx={{ whiteSpace:"nowrap", overflow:"hidden",textOverflow:"ellipsis"}}>
-                        Lizards are a widespread group of
+                       {this.props.description}
                     </Typography>
                 </CardContent>
 
                 <CardActions>
                     <div className='card-bottom'>
 
-                        <div className='price-placeholder'> <h3> {this.props.price} </h3></div>
+                        <div className='price-placeholder'> <h3> $ {this.props.price}.00 </h3></div>
                         <div className='card-action-view'>  <button className='action-button'><VisibilityRoundedIcon fontSize="small" sx={{ color: '#8db600' }} /></button> </div>
                         <div className='card-action-cart'><button className='action-button'><ShoppingCartRoundedIcon fontSize="small" sx={{ color: '#8db600' }} /></button>  </div>
                         <div></div>

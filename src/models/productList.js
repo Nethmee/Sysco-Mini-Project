@@ -32,7 +32,7 @@ const ProductList = [
         name:"Orange Chicken",
         url:'https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
         description:"Good ecommerce web design is absolutely essential for turning online site visitors into potential customers. Ideally, your site’s design elements should make the purchase",
-        price:300,
+        price:1200,
         supplier:"P.E Jacob",
         rating:1
 
