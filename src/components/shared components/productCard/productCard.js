@@ -69,10 +69,7 @@ class productCard extends Component {
 
                     </div>
 
-                    {/*  
-             
-              
-                <Button size="small"><ShoppingCartRoundedIcon fontSize="small" sx={{ color:'#8db600'}}/></Button> */}
+                  
                 </CardActions>
             </Card>
         );
