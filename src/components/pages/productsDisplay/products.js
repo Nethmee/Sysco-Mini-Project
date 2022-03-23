@@ -24,7 +24,7 @@ constructor(props){
 
 
     render() {
-        console.log("products",ProductList)
+       
 
         return (
             <div className='container'>
